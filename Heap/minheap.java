@@ -15,7 +15,7 @@ public class minheap {
          // until root reached / correct position found
         if(index==0 || heap.get(parent_index) < heap.get(index)){
             return;
-        }
+        }  
         // swap
         swap(heap,index,parent_index);
 
